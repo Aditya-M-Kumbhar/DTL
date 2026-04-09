@@ -58,5 +58,7 @@ int main() {
 // Om's add() goes here
 
 // Kedar's subtract() goes here
-
+float subtract(float a, float b) {
+    return a - b;
+}
 // Aditya's multiply() and divide() goes here
