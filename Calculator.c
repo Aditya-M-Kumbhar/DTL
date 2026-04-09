@@ -60,3 +60,16 @@ int main() {
 // Kedar's subtract() goes here
 
 // Aditya's multiply() and divide() goes here
+// ---- MULTIPLY FUNCTION | Author: Aditya ----
+float multiply(float a, float b) {
+    return a * b;
+}
+
+// ---- DIVIDE FUNCTION | Author: Aditya ----
+float divide(float a, float b) {
+    if (b == 0) {
+        printf("Error: Cannot divide by zero!\n");
+        return 0;
+    }
+    return a / b;
+}
