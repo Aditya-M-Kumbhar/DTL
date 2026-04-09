@@ -55,12 +55,26 @@ int main() {
     return 0;
 }
 
-// Om's add() goes here
+// ---- ADD FUNCTION | Author: Om ----
 float add(float a, float b) {
     return a + b;
 }
-// Kedar's subtract() goes here
+
+// ---- SUBTRACT FUNCTION | Author: Kedar ----
 float subtract(float a, float b) {
     return a - b;
 }
-// Aditya's multiply() and divide() goes here
+
+// ---- MULTIPLY FUNCTION | Author: Aditya ----
+float multiply(float a, float b) {
+    return a * b;
+}
+
+// ---- DIVIDE FUNCTION | Author: Aditya ----
+float divide(float a, float b) {
+    if (b == 0) {
+        printf("Error: Cannot divide by zero!\n");
+        return 0;
+    }
+    return a / b;
+}
